@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HasnaaChakik_51831003/static/css/main.1c1f88ed.css",
+    "main.js": "/HasnaaChakik_51831003/static/js/main.169793fe.js",
+    "static/js/453.7d2465d7.chunk.js": "/HasnaaChakik_51831003/static/js/453.7d2465d7.chunk.js",
+    "index.html": "/HasnaaChakik_51831003/index.html",
+    "main.1c1f88ed.css.map": "/HasnaaChakik_51831003/static/css/main.1c1f88ed.css.map",
+    "main.169793fe.js.map": "/HasnaaChakik_51831003/static/js/main.169793fe.js.map",
+    "453.7d2465d7.chunk.js.map": "/HasnaaChakik_51831003/static/js/453.7d2465d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c1f88ed.css",
+    "static/js/main.169793fe.js"
+  ]
+}
