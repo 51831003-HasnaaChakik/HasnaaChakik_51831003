@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Liu_menu from "./Components/Liu_menu";
+
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Services from "./Pages/Services";
+import Liu_Events from "./Pages/Liu_Events";
+import Event_Details from "./Pages/Event_Details";
+import Liu_contact from "./Pages/Liu_contact";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      {/* Navbar will appear on all pages */}
+      <Liu_menu />
+
+      <div className="mt-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/events" element={<Liu_Events />} />
+          <Route path="/events/:id" element={<Event_Details />} />
+          <Route path="/contact" element={<Liu_contact />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
