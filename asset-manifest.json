@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/event-management-system/static/css/main.1c1f88ed.css",
-    "main.js": "/event-management-system/static/js/main.8c903608.js",
-    "static/js/453.7d2465d7.chunk.js": "/event-management-system/static/js/453.7d2465d7.chunk.js",
-    "index.html": "/event-management-system/index.html",
-    "main.1c1f88ed.css.map": "/event-management-system/static/css/main.1c1f88ed.css.map",
-    "main.8c903608.js.map": "/event-management-system/static/js/main.8c903608.js.map",
-    "453.7d2465d7.chunk.js.map": "/event-management-system/static/js/453.7d2465d7.chunk.js.map"
+    "main.css": "/HasnaaChakik_51831003/static/css/main.1c1f88ed.css",
+    "main.js": "/HasnaaChakik_51831003/static/js/main.4a741cba.js",
+    "static/js/453.7d2465d7.chunk.js": "/HasnaaChakik_51831003/static/js/453.7d2465d7.chunk.js",
+    "index.html": "/HasnaaChakik_51831003/index.html",
+    "main.1c1f88ed.css.map": "/HasnaaChakik_51831003/static/css/main.1c1f88ed.css.map",
+    "main.4a741cba.js.map": "/HasnaaChakik_51831003/static/js/main.4a741cba.js.map",
+    "453.7d2465d7.chunk.js.map": "/HasnaaChakik_51831003/static/js/453.7d2465d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c1f88ed.css",
-    "static/js/main.8c903608.js"
+    "static/js/main.4a741cba.js"
   ]
 }
